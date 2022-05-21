@@ -1,7 +1,7 @@
 fun main() {
-    printSum(2, -5)
-}
-
-fun printSum(a: Int, b: Int): Unit {
-    println("Suma de $a y $b dan como resultado ${a + b}")
+    val a: Int = 1
+    val b = 7
+    val c: Int
+    c = 3
+    println("${a + b + c}")
 }
