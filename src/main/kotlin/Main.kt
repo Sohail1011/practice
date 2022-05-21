@@ -1,12 +1,10 @@
-val PI = 3.14
-var x = 0
-fun incrementX() {
-    x += 1
+fun main() {
+    val items = listOf("brocoli", "tomato", "carrot")
+    var index = 0
+    while (index < items.size) {
+        println("Item at $index is ${items[index]}")
+        index++
+    }
 }
 
-fun main() {
-    println("x = $x, PI = $PI")
-    incrementX()
-    println("incrementX()")
-    println("x = $x, PI = $PI")
-}
+// This is a code for the future
